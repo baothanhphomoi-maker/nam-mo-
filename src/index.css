@@ -552,3 +552,45 @@ h2:not(.no-animate) {
 button, a, input {
   transition: all 0.2s ease;
 }
+
+.article-body {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.article-body h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+}
+
+.article-body h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+.article-body p {
+  margin-bottom: 16px;
+}
+
+.article-body strong {
+  font-weight: 700;
+}
+
+.article-body em {
+  font-style: italic;
+}
+
+.article-body img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 24px 0;
+}
+
+.article-body blockquote {
+  border-left: 4px solid #d4af37;
+  padding-left: 16px;
+  margin: 20px 0;
+  font-style: italic;
+}
